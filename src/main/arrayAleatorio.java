@@ -8,7 +8,7 @@ public class arrayAleatorio {
 		// Crea un método en java para insertar en un array 20 números aleatorios entre
 		// 1 y 10
 
-		int array[] = new int[20];
+		int array[] = new int[30];
 
 		for (int i = 0; i < array.length; i++) {
 			array[i] = (int) (Math.random() * 10 + 1);

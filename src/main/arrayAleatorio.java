@@ -11,9 +11,15 @@ public class arrayAleatorio {
 			array[i] = (int)(Math. random()*10+1);
 		}
 		
+		imprimir(array);
+	}
+	
+	public static void imprimir(int[] array) {
+		
 		for (int i = 0; i < array.length; i++) {
-			System.out.print(array[i] + " ");
+			System.out.print(i + ",");
 		}
+		
 	}
 
 }

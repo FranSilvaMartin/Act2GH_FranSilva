@@ -16,6 +16,7 @@ public class arrayAleatorio {
 
 		imprimir(array);
 		contarNumeros(array);
+		//contarNumeros(array);
 	}
 
 	public static void imprimir(int[] array) {
